@@ -1,0 +1,38 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <link rel="stylesheet" href="project2.css"> 
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <input type="text" id="searchInput" >
+                <button id="searchIcon"><i class='bx bx-search bx-md'></i></button>
+            </div>
+            <div class="main">
+                <p class="date"></p>
+                <h3 class="city"></h3>
+                <p id="description"></p>
+                <div class="weatherImg"></div>
+                <p class="weather"></p>
+                <h3 id="temperature"></h3>
+            </div>
+                
+            <div class="footer">
+                <div class="tempContainer">
+                    <h5>Highs</h5>
+                    <h6 class="maxTemp"></h6>
+                </div>
+                <div class="tempContainer">
+                    <h5>Lows</h5>
+                    <h6 class="minTemp"></h6>
+                </div>
+            </div>
+        </div>
+        <script src="project2.js"></script>
+    </body>
+    </html>

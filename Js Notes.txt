@@ -1,0 +1,5 @@
+1) Hoisting
+it means we can use a function even before its initialization and block of code , the java script engine allocates memory to it at the top of the program , this will only work for traditional functions and does not work for function expression or arrow functions ( the engine hoists the variable names  but it will be undefined until the code reaches that part) so if you use it for expression or arrow functions you will get reference error or type error
+
+2)Call back 
+callback means passing an function as an argument to another function that implies that this function which is passed as an argument should only be executed after the main function , these are usually used in asynchronous programming so that this function can be executed after a specific functionality is executed
