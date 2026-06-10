@@ -1,4 +1,5 @@
-// 1.	Create an object using object literal to store details of a car (brand, model, year). Add a method to display car details.
+// 1.	Create an object using object literal to store details of a car (brand, model, year).
+// \ Add a method to display car details.
 
 
 const car ={

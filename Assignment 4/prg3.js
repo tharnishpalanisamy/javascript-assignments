@@ -1,4 +1,5 @@
-    // // 3.	Define a constructor function Person that creates objects with properties name, gender and date of birth. Calculate age based on date of birth and display all details. Create 3 objects using it.
+    // // 3.	Define a constructor function Person that creates objects with properties name, 
+    // gender and date of birth. Calculate age based on date of birth and display all details. Create 3 objects using it.
 
     // function person(name,gender,dob){
     //     this.name = name 

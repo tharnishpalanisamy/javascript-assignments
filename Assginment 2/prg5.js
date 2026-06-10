@@ -1,7 +1,7 @@
 // 5. Function with Rest Operator (...args)
 // Write a function findMax(...numbers) that accepts any number of arguments and returns the largest one.
 
-function findMax(...nums) {
+function findMax(...nums) {    //rest  collects multiple elements
     let max = nums[0] 
     // for(let i = 0 ; i < nums.length ; i++) {
     //     if(nums[i] >= max) {

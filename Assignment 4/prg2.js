@@ -1,4 +1,5 @@
-// 2.	Create an object using new Object() to store book details (title, author, price). Add a method to print details
+// 2.	Create an object using new Object() to store book details 
+// (title, author, price). Add a method to print details
 
 const book = new Object({
     title:"" , 

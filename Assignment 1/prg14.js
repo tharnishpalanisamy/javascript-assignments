@@ -16,6 +16,8 @@ let array = [1,2,3,4,5] ;
 [array[0] , array[4]] = [array[4] , array[0]]
 console.log(array)
 
+const h = [1,2,3] 
+console.log(...h);
 
 // using ...rest 
 
@@ -57,6 +59,9 @@ console.log(job)
 
 // destructuring in function parameter 
 
+let person1 = {
+    firstName : "Tharnish" , lastName: "Palanisamy" , age : 20 
+}
 function display({firstName,lastName,age , job = "Unemployed"}) {
     console.log("details")
     console.log(`Name : ${firstName} ${lastName} age : ${age} ${job}`)
