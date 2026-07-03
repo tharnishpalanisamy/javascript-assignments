@@ -15,3 +15,27 @@
 // let Naveen = new Student('Naveen' , 20) 
 // Tharnish.display() 
 // Naveen.display()
+
+// class Animal{
+//     constructor(){
+//     }
+
+//     eat(){
+//         console.log('Eating');
+//     }
+// }
+
+// class Dog extends Animal{
+//     constructor(){
+//         super() 
+//     }
+//     bark(){
+//         console.log("DOG is BArking");
+        
+//     }
+// }
+
+
+// let dog = new Dog() 
+// dog.eat() 
+// dog.bark()
