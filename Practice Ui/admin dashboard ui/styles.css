@@ -1,54 +1,49 @@
 
 
-.navbar{
-    position: fixed !important; 
-    top: 0 ; 
-    left: 0 ; 
-    width: 100%; 
-    z-index: 100;
-}
-
-.home{
+.wrapper{
     display: flex;
-    height:calc(100vh - 56px);
-    margin-top:56px;
 }
 
 .sidebar{
-    
-    width: 250px;
-    display: flex;
+    display: flex; 
     flex-direction: column; 
-    padding-top: 20px; 
-    border-right: 1px solid #ddd;
-}
-
-.content{
-    flex:1 ; 
-    padding: 25px; 
-    background: #f4f6f9;
-    overflow-y: auto;
-}
-
-
-.sidebar a.active{
-    background:#0EA5E9;
-    color:white;
-}
-
-.sidebar a{ 
+    padding: 30px;  
+    width: 250px ; 
+    height: calc(100vh - 56px ); 
+    background-color: rgb(244, 248, 248); 
+    border-right: 1px solid whitesmoke;
     
-    text-decoration: none;
-    color: #1e293b;
-    padding: 12px 18px;
-    margin: 6px 12px;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: 500;
-    transition: all .3s ease;
 }
+.navbar{
+    position: fixed; 
+    top: 0 ; 
+    left: 0; 
+}
+.sidebar a{ 
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black; 
+    margin-bottom: 12px; 
+    font-size: 18px;
+}
+
+
+.active{
+    background-color: #0EA5E9; 
+    border-radius: 12px; 
+    color: white !important;
+}
+
 
 .sidebar a:hover{
-    background:#e0f2fe;
-    color:#0284c7;
+    background-color: #0EA5E9; 
+    border-radius: 12px;
+    color: white !important;
+}
+
+.contents{ 
+    flex: 1;
+    overflow-y: auto; 
+    height: calc(100vh - 56px);
+    padding: 20px;
 }
