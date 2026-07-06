@@ -117,3 +117,29 @@ function validateDate(date){
     return `Entered: ${date} | Result: ${format}`
 }
 console.log(validateDate("13-05-4044")) 
+
+
+
+
+
+// Only lowercase letters.
+
+let regex = /^[\w]+$/
+console.log(regex.test('hifhfhf'));
+
+
+// Exactly 6 digits.
+
+regex = /^[\d]{6}$/ 
+console.log(regex.test('123643'));
+
+
+// Username: letters and numbers only, length 5–12.
+
+regex = /^[\w]{5,12}$/
+
+// Starts with A and ends with Z.
+regex = /^A.*Z$/
+
+// Indian mobile number: exactly 10 digits, first digit must be 6, 7, 8, or 9.
+regex = /^[6789][\d]{9}$/
