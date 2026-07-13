@@ -8,3 +8,5 @@ let obj = {
 }
 
 console.log(obj.greet());
+
+console.log(obj);
